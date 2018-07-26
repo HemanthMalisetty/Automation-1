@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;API/Input/Requestparams/input.xlsx&apos; to &apos;order_status_details.xlsx&apos;" description="Rename resource &apos;input.xlsx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Input/Requestparams/input.xlsx" name="order_status_details.xlsx" stamp="1516618535514" updateReferences="true"/>
+</session>

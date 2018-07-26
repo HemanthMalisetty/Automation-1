@@ -1,0 +1,8 @@
+endpoint=https://devservices.alphabroder.com/OS/OrderStatus.svc&requestXml=<GetOrderStatusDetailsRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.promostandards.org/WSDL/OrderStatusService/1.0.0/">
+	              <wsVersion>1</wsVersion> 
+				  <id>pdonthula</id> 
+				  <password>Welcome1</password> 
+				  <queryType>1</queryType> 
+				  <referenceNumber>test</referenceNumber> 
+				  <statusTimeStamp xsi:nil="true" /> 
+				</GetOrderStatusDetailsRequest>&webServiceName=OrderStatus&operationName=getOrderStatusDetails&version=1.0.0

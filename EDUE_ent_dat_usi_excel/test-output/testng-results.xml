@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="254551" started-at="2018-04-06T09:22:22Z" finished-at="2018-04-06T09:26:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="254551" started-at="2018-04-06T09:22:22Z" finished-at="2018-04-06T09:26:36Z">
+      <class name="com.ot.alpha.Filling_Form">
+        <test-method status="PASS" signature="fillform()[pri:0, instance:com.ot.alpha.Filling_Form@c038203]" name="fillform" duration-ms="254501" started-at="2018-04-06T14:52:22Z" finished-at="2018-04-06T14:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillform -->
+      </class> <!-- com.ot.alpha.Filling_Form -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

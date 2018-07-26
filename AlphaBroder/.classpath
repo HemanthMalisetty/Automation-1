@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/cssparser-0.9.16.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/htmlunit-2.18.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/htmlunit-core-js-2.17.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jasper-compiler-5.5.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jasper-compiler-jdt-5.5.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jasper-runtime-5.5.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-continuation-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-http-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-io-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-jmx-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-security-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-server-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-servlet-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-servlets-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jetty-util-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/jsp-api-2.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/nekohtml-1.9.22.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/poi-examples-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/poi-excelant-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/poi-scratchpad-3.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/selenium-java-2.48.2.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/selenium-java-2.48.2-srcs.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/testng-6.9.6.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/websocket-api-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/websocket-client-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/websocket-common-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="F:/workspace f/AlphaBroder/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/testng-6.7.jar"/>
+	<classpathentry kind="lib" path="lib/testng-6.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/testng-6.9.9.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

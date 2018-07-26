@@ -1,0 +1,51 @@
+<order> 
+	<cust-po> 
+		<order-type>SP</order-type>  
+		<po-num>QACD082417161</po-num> 
+		<reorder-deco-po-num></reorder-deco-po-num>
+		<whse></whse>
+		<cust-number>1281175</cust-number>
+		<carrier-code></carrier-code>
+		<ship-to-company>Surfing Goat Dairy</ship-to-company>
+		<ship-to-attn>Angela Reid</ship-to-attn>          
+		<ship-to-addr1>3651 Omaopio Road</ship-to-addr1>         
+		<ship-to-addr2></ship-to-addr2>         
+		<ship-to-city>Kula</ship-to-city>          
+		<ship-to-state>HI</ship-to-state>         
+		<ship-to-zip>96780</ship-to-zip>
+		<broder-vendor-num></broder-vendor-num>
+		<comment> One Style, 2images one at RC and other at FTR screen print </comment>               
+		<email-addr>gurlfob@gmail.com</email-addr>            
+		<ship-date>30/08/2018</ship-date>        
+		<items> 
+			<item> 
+				<item-number>B023BE363</item-number>  
+				<quantity>10</quantity> 
+				<cust-item-num></cust-item-num> 
+				<po-line-num>1</po-line-num> 
+				<add-on-items> 
+					<add-on-item> 
+						<add-on-item-number></add-on-item-number> 
+					</add-on-item>
+				</add-on-items>
+				<decorations>
+					<decoration>
+						<deco-type>S</deco-type> 
+						<decoration-id></decoration-id>
+						<production-art-file-name>cd1.png</production-art-file-name> 
+						<placement-code>RC</placement-code>
+						<width>300</width> 
+						<height>120</height> 
+						<colors> 
+							<color> 
+								<thread-chart></thread-chart> 
+								<thread-stop></thread-stop> 
+								<color-number></color-number>
+							</color>
+						</colors>
+					</decoration>
+				</decorations>
+			</item>
+		</items>
+	</cust-po>
+</order>

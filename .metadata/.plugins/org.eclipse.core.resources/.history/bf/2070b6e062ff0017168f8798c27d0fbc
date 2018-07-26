@@ -1,0 +1,87 @@
+package com.mk.ot;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Properties;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Requests {
+	
+	static Properties prop=null;
+	static File master_conf,enduserdata=null;
+	static FileInputStream fis,fis1=null;
+	static XSSFWorkbook wb=null;
+	static XSSFSheet sheet=null;
+	
+	static
+	{
+	  try {
+		prop=new Properties();	
+		  
+		  master_conf=new File(".//Input//Masterconfig.properties");
+		  
+		  fis=new FileInputStream(master_conf);
+		  
+		  prop.load(fis);
+	} 
+	  catch (FileNotFoundException e) {
+		
+		e.printStackTrace();
+		
+	} 
+	  catch (IOException e) {
+		
+		e.printStackTrace();
+	}
+	}
+	public static HashMap urlparams(String value)throws Exception
+	{
+		HashMap<String,String> hm=new HashMap<String,String>();
+		
+		if(value.equalsIgnoreCase("orderstatus_getorderstatustypes"))
+		{
+			return null;
+		}
+		else if(value.equalsIgnoreCase("orderstatus_getorderstatusdetails"))
+		{
+			enduserdata=new File(".//Input//Requestparams//input.xlsx");
+			
+			fis1=new FileInputStream(enduserdata);
+			
+			wb=new XSSFWorkbook(fis1);
+			
+			sheet=wb.getSheetAt(0);
+			
+			for(int i=1;i<=sheet.getLastRowNum();i++)
+			{
+						
+			String path="http://services.promostandards.org/WebServiceValidator/OrderStatus/getOrderStatusDetails_v1";
+			
+			String url="endpoint=https://devservices.alphabroder.com/OS/OrderStatus.svc&requestXml="+"<GetOrderStatusDetailsRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.promostandards.org/WSDL/OrderStatusService/1.0.0/\">\r\n" + 
+					"  <wsVersion>"+sheet.getRow(i).getCell(1)+"</wsVersion>\r\n" + 
+					"  <id>"+sheet.getRow(i).getCell(2)+"</id>\r\n" + 
+					"  <password>"+sheet.getRow(i).getCell(3)+"</password>\r\n" + 
+					"  <queryType>"+sheet.getRow(i).getCell(4)+"</queryType>\r\n" + 
+					"  <referenceNumber>"+sheet.getRow(i).getCell(5)+"</referenceNumber>\r\n" + 
+					"  <statusTimeStamp xsi:nil=\"true\" />\r\n" + 
+					"</GetOrderStatusDetailsRequest>"+"&webServiceName=OrderStatus&operationName=getOrderStatusDetails&version=1.0.0";
+		   
+			hm.put("path",path);
+			
+			hm.put("urlparams"+i,url);
+			
+		    }
+			return hm;
+		}
+		else
+		{
+			return null;
+		}
+	}
+
+}
