@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5125" started-at="2017-10-10T10:20:36Z" finished-at="2017-10-10T10:20:42Z">
+  <suite name="Default suite" duration-ms="5312" started-at="2018-07-28T10:33:46Z" finished-at="2018-07-28T10:33:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5125" started-at="2017-10-10T10:20:36Z" finished-at="2017-10-10T10:20:42Z">
+    <test name="Default test" duration-ms="5312" started-at="2018-07-28T10:33:46Z" finished-at="2018-07-28T10:33:51Z">
       <class name="com.ab.onchip.UpdateXML">
-        <test-method status="PASS" signature="enter()[pri:0, instance:com.ab.onchip.UpdateXML@6a4f787b]" name="enter" duration-ms="4979" started-at="2017-10-10T15:50:37Z" finished-at="2017-10-10T15:50:42Z">
+        <test-method status="PASS" signature="enter()[pri:0, instance:com.ab.onchip.UpdateXML@1e88b3c]" name="enter" duration-ms="5232" started-at="2018-07-28T16:03:46Z" finished-at="2018-07-28T16:03:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enter -->
